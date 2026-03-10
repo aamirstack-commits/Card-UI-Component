@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* div :first-child { background-color: greenyellow;
+    color: aliceblue;
+    box-shadow: 7px 10px 5px rgb(66, 57, 59);
+}
+p { background-color: blue;
+    color: aliceblue;
+    
+}
+
+div :hover{ 
+box-shadow: 5px 5px 10px rgb(66, 57, 59);
+}
+
+li {
+    list-style:"🔥";   
+}
+
+#overflow {
+    width: 20vh;
+    height: 20vh;
+    overflow: auto;
+    overflow-x: scroll;
+    
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(224, 225, 227);
+    min-height: 100vh;
+}
+
+.box { 
+     width: 310px;
+     max-width: 350px;
+     height: 500px;
+     background-color: rgb(255, 255, 255);
+     margin-top: 3%;
+     border-radius: 4.5%;   
+    
+}
+
+.box:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img {
+      padding: 6px ;
+      border-radius: 4.5%;
+
+}
+
+.color {
+    padding: 15px 0px 0px 10px;
+    color: rgb(77, 77, 77);
+}
+
+.pic {
+    border-radius: 4.5%;
+}
+
+.capsule span {
+    border: 1px solid rgb(205, 204, 204);
+    color: rgb(116, 114, 114);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.capsule {
+     margin: 10px 0px 0px 15px ;
+}
+
+.button {
+    color: aqua;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.button button {
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(103, 103, 251);
+    font-weight: bold;
+}
+
+.button button:hover {
+    border: 0.5px solid rgb(0, 162, 255);
+}
+
