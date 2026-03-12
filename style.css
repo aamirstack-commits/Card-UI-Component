@@ -35,6 +35,11 @@ body {
 .color {
     padding: 15px 0px 0px 10px;
     color: rgb(77, 77, 77);
+    margin-top: 15px;
+}
+
+p {
+  margin-top: 10px;  
 }
 
 .pic {
@@ -75,6 +80,7 @@ body {
 .button button:hover {
     border: 0.5px solid rgb(0, 162, 255);
 }
+
 
 
 
